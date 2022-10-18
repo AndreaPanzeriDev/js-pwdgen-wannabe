@@ -16,3 +16,9 @@ console.log(age);
 
 let pw = firstname + lastname + color + age;
 console.log(pw);
+
+
+
+
+
+document.getElementById('showresult').innerHTML = `la tua password insicurissima è: ${pw}`
